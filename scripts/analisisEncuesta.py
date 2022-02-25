@@ -8,7 +8,7 @@ Created on Fri Jan 28 20:57:02 2022
 
 """
 
-from flujo import preprocesamiento, terminal, confirma, borrarPantalla, es_flotante, imprimeLineasConMarco
+from terminal import preprocesamiento, terminal, confirma, borrarPantalla, es_flotante, imprimeLineasConMarco
 import os
 import sys
 import pandas as pd
@@ -1575,7 +1575,7 @@ def ejecutaComando(s):
 # archivoTrabajo = "prueba.sav"
 # archivoTrabajo = "20220107_MM.sav"
 # archivoTrabajo = "PROYECTO_5/ZA 7735/ZA7735_v1-0-0.sav"  <-- Europea original. Ver encuesta en ZA7735_bp-1.pdf
-carpeta = "DataFrame_G"
+carpeta = "../../IA_trabajo\DataFrame_G"
 archivoTrabajo = "20220130_DATA.sav"
 # archivoTrabajo = "20220219_DATOS.sav"  ## Definitivo
 
